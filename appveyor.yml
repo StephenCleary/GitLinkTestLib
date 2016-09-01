@@ -6,6 +6,10 @@ assembly_info:
   assembly_version: "{version}"
   assembly_file_version: "{version}"
   assembly_informational_version: "{version}"
+install:
+  - choco install gitlink
+before_package:
+  - GitLink .
 build:
   publish_nuget: true
   verbosity: minimal
