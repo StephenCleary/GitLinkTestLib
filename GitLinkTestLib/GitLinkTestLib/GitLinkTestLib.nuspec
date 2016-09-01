@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>StephenCleary.GitLinkTestLib</id>
+    <version>$version$</version>
+    <title>Test library for GitLink</title>
+    <authors>Stephen Cleary</authors>
+    <owners>Stephen Cleary</owners>
+    <projectUrl>https://github.com/StephenCleary/GitLinkTestLib</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Test library for GitLink</description>
+  </metadata>
+</package>
