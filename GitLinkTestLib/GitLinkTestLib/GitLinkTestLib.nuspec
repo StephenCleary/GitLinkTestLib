@@ -11,6 +11,6 @@
     <description>Test library for GitLink</description>
   </metadata>
   <files>
-    <file src="bin\Release\GitLinkTestLib.pdb" target="lib\net452"/>
+    <file src="bin\Release\GitLinkTestLib.pdb" target="lib\net46"/>
   </files>
 </package>
