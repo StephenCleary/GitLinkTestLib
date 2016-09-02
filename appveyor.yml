@@ -1,5 +1,5 @@
 version: 1.0.{build}
-configuration: Release
+configuration: Debug
 assembly_info:
   patch: true
   file: AssemblyInfo.*
@@ -9,7 +9,7 @@ assembly_info:
 install:
   - choco install gitlink
 before_package:
-  - GitLink .
+  - GitLink . -c Debug
 build:
   publish_nuget: true
   verbosity: minimal
