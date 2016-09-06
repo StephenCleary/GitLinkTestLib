@@ -28,5 +28,10 @@ namespace GitLinkTestLib
             Trace.WriteLine("Hi, I'm at: " + dir);
             return Task.CompletedTask;
         }
+
+        public static Task TaskReturningSynchronousWrapperMethod()
+        {
+            return AsynchronousMethod();
+        }
     }
 }
